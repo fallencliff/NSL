@@ -1,0 +1,42 @@
+#ifndef NWPU_RANDALGORITHM_H
+#define NWPU_RANDALGORITHM_H
+
+#include 	<random/Algorithm/borosh13.h>
+#include 	<random/Algorithm/cmrg.h>
+#include 	<random/Algorithm/coveyou.h>
+#include 	<random/Algorithm/fishman18.h>
+#include 	<random/Algorithm/fishman20.h>
+#include 	<random/Algorithm/fishman2x.h>
+#include 	<random/Algorithm/gfsr4.h>
+#include 	<random/Algorithm/knuthran.h>
+#include 	<random/Algorithm/knuthran2.h>
+#include 	<random/Algorithm/lecuyer21.h>
+#include 	<random/Algorithm/minstd.h>
+#include 	<random/Algorithm/mrg.h>
+#include 	<random/Algorithm/mt.h>
+#include 	<random/Algorithm/r250.h>
+#include 	<random/Algorithm/ran0.h>
+#include 	<random/Algorithm/ran1.h>
+#include 	<random/Algorithm/ran2.h>
+#include 	<random/Algorithm/ran3.h>
+#include 	<random/Algorithm/rand.h>
+#include 	<random/Algorithm/rand48.h>
+#include 	<random/Algorithm/random.h>
+#include 	<random/Algorithm/randu.h>
+#include 	<random/Algorithm/ranf.h>
+#include 	<random/Algorithm/ranlux.h>
+#include 	<random/Algorithm/ranlxd.h>
+#include 	<random/Algorithm/ranlxs.h>
+#include 	<random/Algorithm/ranmar.h>
+#include 	<random/Algorithm/slatec.h>
+#include 	<random/Algorithm/taus.h>
+#include 	<random/Algorithm/taus113.h>
+#include 	<random/Algorithm/transputer.h>
+#include 	<random/Algorithm/tt.h>
+#include 	<random/Algorithm/uni.h>
+#include 	<random/Algorithm/uni32.h>
+#include 	<random/Algorithm/vax.h>
+#include 	<random/Algorithm/waterman14.h>
+#include 	<random/Algorithm/zuf.h>
+
+#endif
