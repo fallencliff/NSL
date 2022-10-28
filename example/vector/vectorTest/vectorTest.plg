@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: vectorTest - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Wader\LOCALS~1\Temp\RSP67B.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"G:\NSL\example\vector\vectorTest\Load.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Wader\LOCALS~1\Temp\RSP67B.tmp" 
+Creating command line "link.exe NSL.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/vectorTest.pdb" /debug /machine:I386 /out:"Debug/vectorTest.exe" /pdbtype:sept  .\Debug\Load.obj "
+<h3>Output Window</h3>
+Compiling...
+Load.cpp
+Linking...
+   Creating library Debug/vectorTest.lib and object Debug/vectorTest.exp
+LINK : warning LNK4098: defaultlib "LIBCMT" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+vectorTest.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

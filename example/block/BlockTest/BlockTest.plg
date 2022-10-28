@@ -1,0 +1,33 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BlockTest - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Wader\LOCALS~1\Temp\RSP4A3.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "NSL_DLL" /Fo"Release/" /Fd"Release/" /FD /c 
+"G:\NSL\example\block\BlockTest\BlockTest.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Wader\LOCALS~1\Temp\RSP4A3.tmp" 
+Creating command line "link.exe NSL.lib /nologo /subsystem:console /incremental:no /pdb:"Release/BlockTest.pdb" /machine:I386 /out:"Release/BlockTest.exe"  .\Release\BlockTest.obj "
+<h3>Output Window</h3>
+Compiling...
+BlockTest.cpp
+Linking...
+BlockTest.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall gslcpp::CBlock::~CBlock(void)" (__imp_??1CBlock@gslcpp@@QAE@XZ)
+BlockTest.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: double * __thiscall gslcpp::CBlock::GetDataPtr(void)const " (__imp_?GetDataPtr@CBlock@gslcpp@@QBEPANXZ)
+BlockTest.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: unsigned int __thiscall gslcpp::CBlock::Size(void)const " (__imp_?Size@CBlock@gslcpp@@QBEIXZ)
+BlockTest.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall gslcpp::CBlock::CBlock(unsigned int,bool)" (__imp_??0CBlock@gslcpp@@QAE@I_N@Z)
+Release/BlockTest.exe : fatal error LNK1120: 4 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+BlockTest.exe - 5 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
