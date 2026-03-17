@@ -1,3 +1,4 @@
+```mermaid
 flowchart TB
     %% ================= 样式定义 =================
     classDef userLayer fill:#f9f9f9,stroke:#333,stroke-width:2px;
